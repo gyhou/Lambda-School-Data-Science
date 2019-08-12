@@ -3,7 +3,7 @@ https://github.com/Nov05/Lambda-School-Data-Science/blob/master/daily%20notes/20
 
 # Windows 10  
 1. install Anaconda3  
-2. Windows Start Menu Search: type and run "Anaconda Powershell Prompt"  
+2. Windows Start Menu Search: type and run **"Anaconda Powershell Prompt"**  
 3. in the prompt, type the following command:  
 * `pip install pipenv` (run only once)     
 * `cd <path>` (navigate to the folder where you want to create a local folder for your github repo)
@@ -12,8 +12,8 @@ https://github.com/Nov05/Lambda-School-Data-Science/blob/master/daily%20notes/20
 * `pipenv install` (run it only once to create a pip virtual environment for this repo/project)  
 * `pipenv shell` (run it every time you want to start your pipenv virtual environment)  
 * `python run.py` (in the example it contains a Plotly Dash app, so run it every time you want to start the app)   
-4. press Ctrl+C to stop running run.py (type `pipenv shell` to activate the virtual environment again)  
-5. in a new prompt, start the same pipenv virtual environment, type `jupyter notebook` to start Jupyter Notebook IDE 
+4. press Ctrl+C to stop running run.py (navigate to the folder and type `pipenv shell` to activate the virtual environment again)  
+5. in a new prompt, navigate to the folder and start the same pipenv virtual environment, type `jupyter notebook` to start Jupyter Notebook IDE 
 6. you might need to run `pip install scipy` for plotly 4.0.0  
 7. run `pipenv run pip freeze > requirements.txt` to generate requirements.txt for app deployment  
 
